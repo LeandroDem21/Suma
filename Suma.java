@@ -8,7 +8,8 @@ System.out.println("Escribe el 2do numero");
 int numero2 = almacenar.nextInt();
 System.out.println("Escribe 3er numero");
 int numero3 = almacenar.nextInt();
-System.out.println("L suma de los numeros es:" + numero + " " + numero2 + " " + numero3 +);
+int suma=numero + numero2 + numero3;
+System.out.println("La suma de los numeros es:" + suma);
 }
 
 }
